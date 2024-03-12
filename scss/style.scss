@@ -59,8 +59,8 @@ body {
     }
 
     .selected {
-        background-color: $orange;
-        color: $white;
+        background-color: $orange !important;
+        color: $white !important;
     }
 
     .submit {
@@ -111,17 +111,3 @@ body {
         color: $medium-grey;
     }
 }
-
-// @media (max-width: 375px) {
-//     body {
-//         min-height: 100vh;
-//         padding: 2.25rem;
-//         max-width: 300px;
-//         margin: auto;
-//     }
-
-//     .card__default {
-//         padding: 1.5rem;
-//         margin: 40px;
-//     }
-// }
