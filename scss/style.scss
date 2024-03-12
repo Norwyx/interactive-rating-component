@@ -1,2 +1,63 @@
 @forward 'globals';
-@forward 'components';
+@use './globals/colors' as *;
+
+body {
+    background-color: $very-dark-blue;
+    color: $white;
+    min-height: 100vh;
+    font-size: .9375rem;
+    font-weight: 400;
+    font-family: 'Overpass', sans-serif;
+}
+
+.card__default {
+    max-width: 350px;
+    background-color: $dark-blue;
+    padding: 2.5rem;
+    border-radius: 20px;
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: lighten($dark-blue, 10);
+    }
+
+    h1 {
+        font-size: 1.75rem;
+        font-weight: 700;
+        margin: 2rem 0 1rem 0;
+    }
+
+    p {
+        line-height: 1.6;
+        letter-spacing: 1.8;
+        color: $medium-grey;
+        margin-bottom: 1.5rem;
+    }
+
+    .rating__options {
+        margin-bottom: 2rem;
+        gap: 1.25rem;
+        justify-content: space-between;
+    }
+
+    .option {
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: lighten($dark-blue, 10);
+        color: $light-gray;
+    }
+
+    .submit {
+        width: 100%;
+        text-align: center;
+        letter-spacing: 1.5px;
+        background-color: $orange;
+        padding: 1rem 0;
+        border-radius: 25px;
+    }
+}
+

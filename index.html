@@ -10,10 +10,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Interactive rating component</title>
 </head>
-<body>
+<body class="flex center">
   <main class="rating__wrapper">
-    <div class="card__default">
-      <div class="icon">
+    <div class="card__default flex column">
+      <div class="icon flex center">
         <img src="./images/icon-star.svg" alt="Icon star">
       </div>
       <h1>How did we do?</h1>
@@ -21,16 +21,16 @@
         Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!
       </p>
-      <div class="rating__options">
+      <div class="rating__options flex">
         <button class="option">1</button>
         <button class="option">2</button>
         <button class="option">3</button>
         <button class="option">4</button>
         <button class="option">5</button>
       </div>
-      <button class="submit">Submit</button>
+      <button class="submit">SUBMIT</button>
     </div>
-    <div class="card__success">
+    <div class="card__success hidden">
       <div class="image">
         <img src="./images/illustration-thank-you.svg" alt="Success illustration">
       </div>
