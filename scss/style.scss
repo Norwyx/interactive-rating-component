@@ -49,6 +49,17 @@ body {
         border-radius: 50%;
         background-color: lighten($dark-blue, 10);
         color: $light-gray;
+        transition: .4s;
+    }
+
+    .option:hover {
+        background-color: $light-gray;
+        color: $white;
+    }
+
+    .selected {
+        background-color: $orange;
+        color: $white;
     }
 
     .submit {
@@ -58,6 +69,12 @@ body {
         background-color: $orange;
         padding: 1rem 0;
         border-radius: 25px;
+        transition: .4s;
+    }
+
+    .submit:hover {
+        background-color: $white;
+        color: $orange;
     }
 }
 
