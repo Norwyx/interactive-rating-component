@@ -61,3 +61,35 @@ body {
     }
 }
 
+.card__success {
+    max-width: 350px;
+    padding: 2.75rem 2.5rem;
+    background-color: $dark-blue;
+    border-radius: 20px;
+
+    img {
+        margin-bottom: 2rem;
+    }
+
+    .user__rating {
+        background-color: lighten($dark-blue, 10);
+        color: $orange;
+        padding: .625rem 1rem;
+        border-radius: 25px;
+        display: inline-flex;
+        margin-bottom: 2.5rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        text-align: center;
+        line-height: 1.6;
+        letter-spacing: 1.8;
+        color: $medium-grey;
+    }
+}
