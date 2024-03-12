@@ -11,9 +11,10 @@ body {
 }
 
 .card__default {
-    max-width: 350px;
+    max-width: 325px;
     background-color: $dark-blue;
-    padding: 2.5rem;
+    padding: 2rem;
+    margin: 1.5rem;
     border-radius: 20px;
 
     .icon {
@@ -79,7 +80,7 @@ body {
 }
 
 .card__success {
-    max-width: 350px;
+    max-width: 325px;
     padding: 2.75rem 2.5rem;
     background-color: $dark-blue;
     border-radius: 20px;
@@ -110,3 +111,17 @@ body {
         color: $medium-grey;
     }
 }
+
+// @media (max-width: 375px) {
+//     body {
+//         min-height: 100vh;
+//         padding: 2.25rem;
+//         max-width: 300px;
+//         margin: auto;
+//     }
+
+//     .card__default {
+//         padding: 1.5rem;
+//         margin: 40px;
+//     }
+// }
